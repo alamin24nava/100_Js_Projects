@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Js Vowel Counter App!</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body class="bg-dark">
+        <div class="container">
+            <div class="d-flex align-items-center vh-100">
+                <div class="w-100">
+                    <h3 class="text-white text-center mb-4">Js Vowel Counter App!</h3>
+                    <div class="w-75 bg-white p-5 rounded-4 mx-auto">
+                        <h3 class="text-center palindrome">Check Your palindrome string</h3>
+                        <form class="mb-3 row">
+                            <div class="col-sm-9">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputPalindrome"
+                                    value=""
+                                />
+                            </div>
+                            <div class="col-sm-3">
+                                <button onclick = "handleSubmit(event)" class="btn btn-primary w-100 btn-palindrome">Check</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
