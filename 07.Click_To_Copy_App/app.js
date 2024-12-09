@@ -1,8 +1,5 @@
 const coupon = document.querySelector(".coupon")
 const btn = document.querySelector('#submitBtn')
-
-
-
 const copyText = ()=>{
     coupon.select();
     coupon.setSelectionRange(0,999999)
